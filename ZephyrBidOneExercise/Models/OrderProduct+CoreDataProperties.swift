@@ -17,7 +17,7 @@ extension OrderProduct {
     }
 
     @NSManaged public var productQuantity: Double
-    @NSManaged public var order: Order?
-    @NSManaged public var product: Product?
+    @NSManaged public var order: Order
+    @NSManaged public var product: Product
 
 }

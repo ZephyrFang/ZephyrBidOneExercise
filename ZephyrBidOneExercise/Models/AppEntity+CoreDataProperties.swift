@@ -16,7 +16,7 @@ extension AppEntity {
         return NSFetchRequest<AppEntity>(entityName: "AppEntity")
     }
 
-    @NSManaged public var id: String?
+    @NSManaged public var id: String
 
 }
 

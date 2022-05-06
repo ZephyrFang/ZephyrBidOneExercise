@@ -28,6 +28,11 @@ struct PersistenceController {
         return result
     }()
 
+    static var empty: PersistenceController = {
+        /// For XCTest
+        PersistenceController(inMemory: true)
+    }()
+    
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {

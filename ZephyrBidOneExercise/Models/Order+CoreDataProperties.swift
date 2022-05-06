@@ -17,11 +17,11 @@ extension Order {
     }
 
     @NSManaged public var orderId: Int64
-    @NSManaged public var orderDescription: String?
-    @NSManaged public var orderDateStr: String?
+    @NSManaged public var orderDescription: String
+    @NSManaged public var orderDateStr: String
     @NSManaged public var orderDate: Date?
     @NSManaged public var deliveryDate: Date?
-    @NSManaged public var deliveryDateStr: String?
+    @NSManaged public var deliveryDateStr: String
     @NSManaged public var orderProducts_: NSSet?
 
 }

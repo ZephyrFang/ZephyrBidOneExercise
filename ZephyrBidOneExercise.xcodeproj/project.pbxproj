@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09934645282575B9001EE32E /* ZephyrBidOneExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09934644282575B9001EE32E /* ZephyrBidOneExerciseApp.swift */; };
-		09934647282575B9001EE32E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09934646282575B9001EE32E /* ContentView.swift */; };
+		09934647282575B9001EE32E /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09934646282575B9001EE32E /* OrdersView.swift */; };
 		09934649282575BC001EE32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09934648282575BC001EE32E /* Assets.xcassets */; };
 		0993464C282575BC001EE32E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0993464B282575BC001EE32E /* Preview Assets.xcassets */; };
 		0993464E282575BC001EE32E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993464D282575BC001EE32E /* Persistence.swift */; };
@@ -24,6 +24,18 @@
 		099346932825806A001EE32E /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468D2825806A001EE32E /* Product+CoreDataProperties.swift */; };
 		099346942825806A001EE32E /* OrderProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468E2825806A001EE32E /* OrderProduct+CoreDataClass.swift */; };
 		099346952825806A001EE32E /* OrderProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468F2825806A001EE32E /* OrderProduct+CoreDataProperties.swift */; };
+		0993469728258155001EE32E /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993469628258155001EE32E /* AppData.swift */; };
+		09934699282581B0001EE32E /* AppEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09934698282581B0001EE32E /* AppEntityExtension.swift */; };
+		0993469B28258208001EE32E /* BidOneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993469A28258208001EE32E /* BidOneFormatter.swift */; };
+		0993469D2825825D001EE32E /* OrderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993469C2825825D001EE32E /* OrderExtension.swift */; };
+		0993469F28258297001EE32E /* OrderProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993469E28258297001EE32E /* OrderProductExtension.swift */; };
+		099346A1282582DF001EE32E /* ProductExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346A0282582DF001EE32E /* ProductExtenstion.swift */; };
+		099346A4282583F0001EE32E /* OrderRowSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346A3282583F0001EE32E /* OrderRowSubView.swift */; };
+		099346A728258491001EE32E /* OrderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346A628258491001EE32E /* OrderDetailsView.swift */; };
+		099346A9282584DB001EE32E /* OrderProductSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346A8282584DB001EE32E /* OrderProductSubView.swift */; };
+		099346AB28258505001EE32E /* LabelValueRowSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AA28258505001EE32E /* LabelValueRowSubView.swift */; };
+		099346AD2825852B001EE32E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AC2825852B001EE32E /* PreviewData.swift */; };
+		099346AF28258EFE001EE32E /* LabelValueStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AE28258EFE001EE32E /* LabelValueStyler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +58,7 @@
 /* Begin PBXFileReference section */
 		09934641282575B9001EE32E /* ZephyrBidOneExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZephyrBidOneExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09934644282575B9001EE32E /* ZephyrBidOneExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZephyrBidOneExerciseApp.swift; sourceTree = "<group>"; };
-		09934646282575B9001EE32E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09934646282575B9001EE32E /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 		09934648282575BC001EE32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0993464B282575BC001EE32E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0993464D282575BC001EE32E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -64,6 +76,18 @@
 		0993468D2825806A001EE32E /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0993468E2825806A001EE32E /* OrderProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0993468F2825806A001EE32E /* OrderProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0993469628258155001EE32E /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		09934698282581B0001EE32E /* AppEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntityExtension.swift; sourceTree = "<group>"; };
+		0993469A28258208001EE32E /* BidOneFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidOneFormatter.swift; sourceTree = "<group>"; };
+		0993469C2825825D001EE32E /* OrderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExtension.swift; sourceTree = "<group>"; };
+		0993469E28258297001EE32E /* OrderProductExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProductExtension.swift; sourceTree = "<group>"; };
+		099346A0282582DF001EE32E /* ProductExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExtenstion.swift; sourceTree = "<group>"; };
+		099346A3282583F0001EE32E /* OrderRowSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowSubView.swift; sourceTree = "<group>"; };
+		099346A628258491001EE32E /* OrderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsView.swift; sourceTree = "<group>"; };
+		099346A8282584DB001EE32E /* OrderProductSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProductSubView.swift; sourceTree = "<group>"; };
+		099346AA28258505001EE32E /* LabelValueRowSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueRowSubView.swift; sourceTree = "<group>"; };
+		099346AC2825852B001EE32E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		099346AE28258EFE001EE32E /* LabelValueStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueStyler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0993464B282575BC001EE32E /* Preview Assets.xcassets */,
+				099346AC2825852B001EE32E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -169,6 +194,12 @@
 		0993467428257A49001EE32E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0993469628258155001EE32E /* AppData.swift */,
+				09934698282581B0001EE32E /* AppEntityExtension.swift */,
+				0993469A28258208001EE32E /* BidOneFormatter.swift */,
+				0993469C2825825D001EE32E /* OrderExtension.swift */,
+				0993469E28258297001EE32E /* OrderProductExtension.swift */,
+				099346A0282582DF001EE32E /* ProductExtenstion.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,9 +207,30 @@
 		0993467528257A56001EE32E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				09934646282575B9001EE32E /* ContentView.swift */,
+				099346A2282583B1001EE32E /* OrdersViews */,
+				099346A52825842B001EE32E /* OrderDetailsViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		099346A2282583B1001EE32E /* OrdersViews */ = {
+			isa = PBXGroup;
+			children = (
+				09934646282575B9001EE32E /* OrdersView.swift */,
+				099346A3282583F0001EE32E /* OrderRowSubView.swift */,
+			);
+			path = OrdersViews;
+			sourceTree = "<group>";
+		};
+		099346A52825842B001EE32E /* OrderDetailsViews */ = {
+			isa = PBXGroup;
+			children = (
+				099346A628258491001EE32E /* OrderDetailsView.swift */,
+				099346A8282584DB001EE32E /* OrderProductSubView.swift */,
+				099346AA28258505001EE32E /* LabelValueRowSubView.swift */,
+				099346AE28258EFE001EE32E /* LabelValueStyler.swift */,
+			);
+			path = OrderDetailsViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,17 +363,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0993469728258155001EE32E /* AppData.swift in Sources */,
 				099346952825806A001EE32E /* OrderProduct+CoreDataProperties.swift in Sources */,
 				099346932825806A001EE32E /* Product+CoreDataProperties.swift in Sources */,
 				099346912825806A001EE32E /* Order+CoreDataProperties.swift in Sources */,
+				0993469B28258208001EE32E /* BidOneFormatter.swift in Sources */,
 				09934651282575BC001EE32E /* ZephyrBidOneExercise.xcdatamodeld in Sources */,
 				0993464E282575BC001EE32E /* Persistence.swift in Sources */,
+				099346AB28258505001EE32E /* LabelValueRowSubView.swift in Sources */,
+				09934699282581B0001EE32E /* AppEntityExtension.swift in Sources */,
+				099346AF28258EFE001EE32E /* LabelValueStyler.swift in Sources */,
+				0993469D2825825D001EE32E /* OrderExtension.swift in Sources */,
+				099346A4282583F0001EE32E /* OrderRowSubView.swift in Sources */,
 				099346902825806A001EE32E /* Order+CoreDataClass.swift in Sources */,
 				099346882825800F001EE32E /* AppEntity+CoreDataClass.swift in Sources */,
 				099346922825806A001EE32E /* Product+CoreDataClass.swift in Sources */,
-				09934647282575B9001EE32E /* ContentView.swift in Sources */,
+				09934647282575B9001EE32E /* OrdersView.swift in Sources */,
+				099346A728258491001EE32E /* OrderDetailsView.swift in Sources */,
+				0993469F28258297001EE32E /* OrderProductExtension.swift in Sources */,
+				099346A1282582DF001EE32E /* ProductExtenstion.swift in Sources */,
+				099346AD2825852B001EE32E /* PreviewData.swift in Sources */,
 				099346942825806A001EE32E /* OrderProduct+CoreDataClass.swift in Sources */,
 				099346892825800F001EE32E /* AppEntity+CoreDataProperties.swift in Sources */,
+				099346A9282584DB001EE32E /* OrderProductSubView.swift in Sources */,
 				09934645282575B9001EE32E /* ZephyrBidOneExerciseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

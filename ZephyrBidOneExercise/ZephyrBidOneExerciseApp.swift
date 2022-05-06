@@ -13,8 +13,9 @@ struct ZephyrBidOneExerciseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OrdersView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(AppData()) 
         }
     }
 }

@@ -17,9 +17,9 @@ extension Product {
     }
 
     @NSManaged public var productCode: Int64
-    @NSManaged public var brand: String?
-    @NSManaged public var price: NSDecimalNumber?
-    @NSManaged public var productDescription: String?
+    @NSManaged public var brand: String
+    @NSManaged public var price: NSDecimalNumber
+    @NSManaged public var productDescription: String
     @NSManaged public var orderProducts_: NSSet?
 
 }
