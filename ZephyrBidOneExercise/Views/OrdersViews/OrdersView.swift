@@ -42,9 +42,3 @@ struct OrdersView: View {
         }
     }
 }
-
-/*struct OrdersView_Previews: PreviewProvider {
-    static var previews: some View {
-        OrdersView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}*/

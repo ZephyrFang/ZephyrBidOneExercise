@@ -14,12 +14,11 @@ struct OrderRowSubView: View {
     @EnvironmentObject var appData: AppData
     @ObservedObject var order: Order
     
-    var body: some View {
-        
+    var body: some View {        
         HStack {
             ZStack {
                 Rectangle()
-                    .fill(Color.white)
+                    .fill(Color(UIColor.systemBackground))
                     .frame(width: 70, height: 100)
                 VStack {
                     Text("#")
@@ -47,20 +46,23 @@ struct OrderRowSubView: View {
             Text(self.order.totalStr)
                 .font(.body)
         }
-        
     }
 }
 
-/*struct OrderRowSubView_Previews: PreviewProvider {
+struct OrderRowSubView_Previews: PreviewProvider {
+    /// To make the preview work, you have to stopped using the simulator and chose "Any iOS Device"
+    
     static var previews: some View {
         OrderRowSubView(order: PreviewData.getOrder())
             .preferredColorScheme(.dark)
+            .environmentObject(AppData())
         
         ForEach(PreviewData.devices, id: \.self) { deviceName in
             OrderRowSubView(order: PreviewData.getOrder())
             .previewDevice(PreviewDevice(rawValue: deviceName))
             .previewDisplayName(deviceName)
+            .environmentObject(AppData())
             
         }
     }
-}*/
+}

@@ -25,9 +25,3 @@ struct OrderProductSubView: View {
         }.padding()
     }
 }
-
-/*struct OrderProductSubView_Previews: PreviewProvider {
-    static var previews: some View {
-        OrderProductSubView()
-    }
-}*/

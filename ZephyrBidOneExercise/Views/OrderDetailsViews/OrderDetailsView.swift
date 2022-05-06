@@ -19,7 +19,6 @@ struct OrderDetailsView: View {
     }
     
     var body: some View {
-        
         Form {
             Section {                
                 LabelValueRowSubView(label: "Description", value: self.order.orderDescription)
@@ -28,7 +27,6 @@ struct OrderDetailsView: View {
                 LabelValueRowSubView(label: "Order Date", value: self.order.orderDateStr)
                 LabelValueRowSubView(label: "Delivery Date", value: self.order.deliveryDateStr)
             }
-            
             Section(header: HStack {
                 Text("\(self.product_count)")
                     .foregroundColor(appData.appColour)
@@ -60,12 +58,12 @@ struct OrderDetailsView_Previews: PreviewProvider {
     static var previews: some View {
         OrderDetailsView(order: PreviewData.getOrder())
             .preferredColorScheme(.dark)
-            .environmentObject(AppData()) 
+            .environmentObject(AppData())
         ForEach(PreviewData.devices, id: \.self) { deviceName in
             OrderDetailsView(order: PreviewData.getOrder())
             .previewDevice(PreviewDevice(rawValue: deviceName))
             .previewDisplayName(deviceName)
-            .environmentObject(AppData()) 
+            .environmentObject(AppData())
         }
     }
 }

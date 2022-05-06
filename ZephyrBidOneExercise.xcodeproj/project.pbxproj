@@ -20,8 +20,6 @@
 		099346892825800F001EE32E /* AppEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346872825800F001EE32E /* AppEntity+CoreDataProperties.swift */; };
 		099346902825806A001EE32E /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468A2825806A001EE32E /* Order+CoreDataClass.swift */; };
 		099346912825806A001EE32E /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468B2825806A001EE32E /* Order+CoreDataProperties.swift */; };
-		099346922825806A001EE32E /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468C2825806A001EE32E /* Product+CoreDataClass.swift */; };
-		099346932825806A001EE32E /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468D2825806A001EE32E /* Product+CoreDataProperties.swift */; };
 		099346942825806A001EE32E /* OrderProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468E2825806A001EE32E /* OrderProduct+CoreDataClass.swift */; };
 		099346952825806A001EE32E /* OrderProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993468F2825806A001EE32E /* OrderProduct+CoreDataProperties.swift */; };
 		0993469728258155001EE32E /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993469628258155001EE32E /* AppData.swift */; };
@@ -36,6 +34,8 @@
 		099346AB28258505001EE32E /* LabelValueRowSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AA28258505001EE32E /* LabelValueRowSubView.swift */; };
 		099346AD2825852B001EE32E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AC2825852B001EE32E /* PreviewData.swift */; };
 		099346AF28258EFE001EE32E /* LabelValueStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346AE28258EFE001EE32E /* LabelValueStyler.swift */; };
+		099346B228259961001EE32E /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346B028259961001EE32E /* Product+CoreDataClass.swift */; };
+		099346B328259961001EE32E /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099346B128259961001EE32E /* Product+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,6 @@
 		099346872825800F001EE32E /* AppEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0993468A2825806A001EE32E /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0993468B2825806A001EE32E /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		0993468C2825806A001EE32E /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
-		0993468D2825806A001EE32E /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0993468E2825806A001EE32E /* OrderProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0993468F2825806A001EE32E /* OrderProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0993469628258155001EE32E /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
@@ -88,6 +86,8 @@
 		099346AA28258505001EE32E /* LabelValueRowSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueRowSubView.swift; sourceTree = "<group>"; };
 		099346AC2825852B001EE32E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		099346AE28258EFE001EE32E /* LabelValueStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueStyler.swift; sourceTree = "<group>"; };
+		099346B028259961001EE32E /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		099346B128259961001EE32E /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,10 +183,10 @@
 				099346872825800F001EE32E /* AppEntity+CoreDataProperties.swift */,
 				0993468A2825806A001EE32E /* Order+CoreDataClass.swift */,
 				0993468B2825806A001EE32E /* Order+CoreDataProperties.swift */,
-				0993468C2825806A001EE32E /* Product+CoreDataClass.swift */,
-				0993468D2825806A001EE32E /* Product+CoreDataProperties.swift */,
 				0993468E2825806A001EE32E /* OrderProduct+CoreDataClass.swift */,
 				0993468F2825806A001EE32E /* OrderProduct+CoreDataProperties.swift */,
+				099346B028259961001EE32E /* Product+CoreDataClass.swift */,
+				099346B128259961001EE32E /* Product+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -365,7 +365,6 @@
 			files = (
 				0993469728258155001EE32E /* AppData.swift in Sources */,
 				099346952825806A001EE32E /* OrderProduct+CoreDataProperties.swift in Sources */,
-				099346932825806A001EE32E /* Product+CoreDataProperties.swift in Sources */,
 				099346912825806A001EE32E /* Order+CoreDataProperties.swift in Sources */,
 				0993469B28258208001EE32E /* BidOneFormatter.swift in Sources */,
 				09934651282575BC001EE32E /* ZephyrBidOneExercise.xcdatamodeld in Sources */,
@@ -377,13 +376,14 @@
 				099346A4282583F0001EE32E /* OrderRowSubView.swift in Sources */,
 				099346902825806A001EE32E /* Order+CoreDataClass.swift in Sources */,
 				099346882825800F001EE32E /* AppEntity+CoreDataClass.swift in Sources */,
-				099346922825806A001EE32E /* Product+CoreDataClass.swift in Sources */,
 				09934647282575B9001EE32E /* OrdersView.swift in Sources */,
+				099346B328259961001EE32E /* Product+CoreDataProperties.swift in Sources */,
 				099346A728258491001EE32E /* OrderDetailsView.swift in Sources */,
 				0993469F28258297001EE32E /* OrderProductExtension.swift in Sources */,
 				099346A1282582DF001EE32E /* ProductExtenstion.swift in Sources */,
 				099346AD2825852B001EE32E /* PreviewData.swift in Sources */,
 				099346942825806A001EE32E /* OrderProduct+CoreDataClass.swift in Sources */,
+				099346B228259961001EE32E /* Product+CoreDataClass.swift in Sources */,
 				099346892825800F001EE32E /* AppEntity+CoreDataProperties.swift in Sources */,
 				099346A9282584DB001EE32E /* OrderProductSubView.swift in Sources */,
 				09934645282575B9001EE32E /* ZephyrBidOneExerciseApp.swift in Sources */,

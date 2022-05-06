@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BidOneFormatter {
+    /// Formatters in this app
     
     static var priceFormatter: NumberFormatter {
         /// To convert price ( Decima l) to String
@@ -34,13 +35,5 @@ struct BidOneFormatter {
         formatter.locale = Locale.current
         return formatter
     }
-    
-    /*static var fromDateToStrFormatter: DateFormatter {
-        /// To convert Date to String.
-        let formatter = DateFormatter()
-        //formatter.dateFormat = "MMM dd, yyyy"
-        formatter.dateFormat = "yyyy-MM-dd"
-        return formatter
-    }*/
     
 }

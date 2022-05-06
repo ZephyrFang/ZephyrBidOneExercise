@@ -27,9 +27,3 @@ struct LabelValueRowSubView: View {
         }.padding(.bottom, 5)
     }
 }
-
-/*struct ProductLabelValueSubView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductLabelValueSubView()
-    }
-}*/

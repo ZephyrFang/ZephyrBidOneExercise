@@ -33,6 +33,7 @@ class ZephyrBidOneExerciseUITests: XCTestCase {
         let element = app.staticTexts["Friday Order"]
         XCTAssertTrue(element.exists)
         element.tap()
+        
         XCTAssertTrue(app.staticTexts["Order # 4,937"].exists)
         
         XCTAssertTrue(app.staticTexts["Description"].exists)

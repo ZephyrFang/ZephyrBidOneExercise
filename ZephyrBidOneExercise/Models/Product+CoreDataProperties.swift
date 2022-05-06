@@ -20,23 +20,23 @@ extension Product {
     @NSManaged public var brand: String
     @NSManaged public var price: NSDecimalNumber
     @NSManaged public var productDescription: String
-    @NSManaged public var orderProducts_: NSSet?
+    @NSManaged public var productOrders_: NSSet?
 
 }
 
-// MARK: Generated accessors for orderProducts_
+// MARK: Generated accessors for productOrders_
 extension Product {
 
-    @objc(addOrderProducts_Object:)
-    @NSManaged public func addToOrderProducts_(_ value: OrderProduct)
+    @objc(addProductOrders_Object:)
+    @NSManaged public func addToProductOrders_(_ value: OrderProduct)
 
-    @objc(removeOrderProducts_Object:)
-    @NSManaged public func removeFromOrderProducts_(_ value: OrderProduct)
+    @objc(removeProductOrders_Object:)
+    @NSManaged public func removeFromProductOrders_(_ value: OrderProduct)
 
-    @objc(addOrderProducts_:)
-    @NSManaged public func addToOrderProducts_(_ values: NSSet)
+    @objc(addProductOrders_:)
+    @NSManaged public func addToProductOrders_(_ values: NSSet)
 
-    @objc(removeOrderProducts_:)
-    @NSManaged public func removeFromOrderProducts_(_ values: NSSet)
+    @objc(removeProductOrders_:)
+    @NSManaged public func removeFromProductOrders_(_ values: NSSet)
 
 }

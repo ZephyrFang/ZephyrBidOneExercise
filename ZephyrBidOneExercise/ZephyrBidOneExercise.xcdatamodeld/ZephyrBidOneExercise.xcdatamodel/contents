@@ -15,14 +15,14 @@
     <entity name="OrderProduct" representedClassName="OrderProduct" parentEntity="AppEntity" syncable="YES">
         <attribute name="productQuantity" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <relationship name="order" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="orderProducts_" inverseEntity="Order"/>
-        <relationship name="product" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="orderProducts_" inverseEntity="Product"/>
+        <relationship name="product" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="productOrders_" inverseEntity="Product"/>
     </entity>
     <entity name="Product" representedClassName="Product" parentEntity="AppEntity" syncable="YES">
         <attribute name="brand" attributeType="String" defaultValueString=""/>
         <attribute name="price" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="productCode" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="productDescription" attributeType="String" defaultValueString=""/>
-        <relationship name="orderProducts_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OrderProduct" inverseName="product" inverseEntity="OrderProduct"/>
+        <relationship name="productOrders_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OrderProduct" inverseName="product" inverseEntity="OrderProduct"/>
     </entity>
     <elements>
         <element name="AppEntity" positionX="-63" positionY="-18" width="128" height="44"/>
